@@ -34,7 +34,7 @@ User named "user" with password "123456" with rights granted over the referred d
 
 ----- // -----
 
-Postman version 8.11.1 were made. Some examples:
+Postman version 8.11.1 were used to make some tests. Some examples:
 
 (1) Create client(cliente):
 In Body>Raw>JSON type:
