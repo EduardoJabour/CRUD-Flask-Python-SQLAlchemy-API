@@ -7,11 +7,11 @@ CRUD:
 	III. PUT (Edit customer)
 	IV. DELETE (Remove client)
 
-Database with the fields:
-	I. code (primary_key / not null) ,
+Database with fields:
+	I. code (primary_key / not null)
 	II. name (not null)
 	III. corporate name (not null)
-	IV. cnpj (not null),
+	IV. cnpj (not null)
 	V. inclusion_date (datetime / not null) (deve ser obtida do formulário, não foi utilizada a data do commit)
 
 API Response Pattern created, with status_code and messages for success or error.
@@ -28,7 +28,7 @@ psycopg2 2.9.1
 
 Requirements (2):
 
-Postegresql server running on the local system (localhost), port 5432
+Postegresql server running on local system (localhost), port 5432
 Database named "smartnx"
 User named "user" with password "123456" with rights granted over the referred database.
 
